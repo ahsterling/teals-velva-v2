@@ -484,7 +484,7 @@
 	.wrapper.style1 {
 		padding-top: 10em;
 		padding-bottom: 2em;
-		background: url(./images/bg.jpg) no-repeat center top;
+		background: url(./images/code-background.jpg) no-repeat center top;
 		background-size: cover;
 		background-attachment: fixed;
 		-webkit-backface-visibility: hidden;
@@ -557,13 +557,16 @@
 	#banner {
 		text-align: center;
 		color: #fff;
-		padding: 0em 4em;
+		background-color: #0F1116;
+		padding: 2em 4em;
 		margin-bottom: 6em;
+		border-radius: 10px;
 	}
 
 		#banner p {
 			font-size: 1.75em;
 			line-height: 1.75em;
+			margin: 0;
 		}
 
 	#banner strong,

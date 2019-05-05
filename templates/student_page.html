@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <!-- Page -->
+    <div id="page" class="container">
+        <section>
+            <header class="major">
+                <h2>{{ name }}</h2>
+                <span class="byline">VELVA CLASS OF 2020</span>
+            </header>
+
+            {% block student_content %} {% endblock %}
+        </section>
+    </div>
+
+
+{% endblock %}
