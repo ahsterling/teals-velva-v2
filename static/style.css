@@ -589,12 +589,18 @@
 
 /* Page */
 
+.snap-project {
+	height: 500px;
+	width: 600px;
+}
 	#page {
 		position: relative;
 		background: #FFF;
 		padding: 6em 4em 6em 4em;
 		border-radius: 6px;
 	}
+
+
 
 /* Sidebar */
 

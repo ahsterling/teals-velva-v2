@@ -7,10 +7,26 @@
         <section>
             <header class="major">
                 <h2>{{ name }}</h2>
-                <span class="byline">VELVA CLASS OF 2020</span>
+                <span class="byline">VELVA CLASS OF {{ grad_year }}</span>
             </header>
 
-            {% block student_content %} {% endblock %}
+            <h3>What I learned in this class</h3>
+            {% block learned_content %} {% endblock %}
+
+            <h3>What was most challenging about this class</h3>
+            {% block challenge_content %} {% endblock %}
+
+            <h3>Favorite SNAP Project and why</h3>
+            {% block snap_content %} {% endblock %}
+
+            <h3>Favorite Python project and why</h3>
+            {% block python_content %} {% endblock %}
+
+            <h3>Why should other students take this class</h3>
+            {% block other_student_content %} {% endblock %}
+
+
+
         </section>
     </div>
 
