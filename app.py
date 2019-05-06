@@ -8,7 +8,7 @@ def index():
 
 @app.route('/adam')
 def adam():
-    return render_template('students/adam.html', name="Adam", grad_year="?")
+    return render_template('students/adam.html', name="Adam", grad_year="2021")
 
 @app.route('/wyatt')
 def wyatt():
