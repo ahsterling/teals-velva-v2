@@ -32,7 +32,7 @@ def daniel():
 
 @app.route('/morgan')
 def morgan():
-    return render_template('students/morgan.html', name="Morgan", grad_year="?")
+    return render_template('students/morgan.html', name="Morgan", grad_year="2021")
 
 @app.route('/gunnar')
 def gunnar():
