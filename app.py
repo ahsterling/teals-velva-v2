@@ -20,7 +20,7 @@ def paul():
 
 @app.route('/grace')
 def grace():
-    return render_template('students/grace.html', name="Grace", grad_year="?")
+    return render_template('students/grace.html', name="Grace", grad_year="2020")
 
 @app.route('/isabella')
 def isabella():
