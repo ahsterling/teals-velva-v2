@@ -36,7 +36,7 @@ def morgan():
 
 @app.route('/gunnar')
 def gunnar():
-    return render_template('students/gunnar.html', name="Gunnar", grad_year="?")
+    return render_template('students/gunnar.html', name="Gunnar", grad_year="2021")
 
 @app.route('/bryson')
 def bryson():
@@ -48,7 +48,7 @@ def jerry():
 
 @app.route('/michael')
 def michael():
-    return render_template('students/michael.html', name="Michael", grad_year="?")
+    return render_template('students/michael.html', name="Michael", grad_year="2020")
 
 @app.route('/skyler')
 def skyler():
