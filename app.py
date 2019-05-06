@@ -12,7 +12,7 @@ def adam():
 
 @app.route('/wyatt')
 def wyatt():
-    return render_template('students/wyatt.html', name="Wyatt", grad_year="?")
+    return render_template('students/wyatt.html', name="Wyatt", grad_year="2021")
 
 @app.route('/paul')
 def paul():
