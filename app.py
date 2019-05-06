@@ -52,7 +52,7 @@ def michael():
 
 @app.route('/skyler')
 def skyler():
-    return render_template('students/skyler.html', name="Skyler", grad_year="?")
+    return render_template('students/skyler.html', name="Skyler", grad_year="2020")
 
 if __name__ == '__main__':
     app.run()
