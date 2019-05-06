@@ -44,7 +44,7 @@ def bryson():
 
 @app.route('/jerry')
 def jerry():
-    return render_template('students/jerry.html', name="Jerry", grad_year="?")
+    return render_template('students/jerry.html', name="Jerry", grad_year="2021")
 
 @app.route('/michael')
 def michael():
