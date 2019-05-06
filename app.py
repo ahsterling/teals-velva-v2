@@ -24,7 +24,7 @@ def grace():
 
 @app.route('/isabella')
 def isabella():
-    return render_template('students/isabella.html', name="Isabella", grad_year="?")
+    return render_template('students/isabella.html', name="Isabella", grad_year="2021")
 
 @app.route('/daniel')
 def daniel():
