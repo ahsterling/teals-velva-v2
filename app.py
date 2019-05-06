@@ -16,7 +16,7 @@ def wyatt():
 
 @app.route('/paul')
 def paul():
-    return render_template('students/paul.html', name="Paul", grad_year="?")
+    return render_template('students/paul.html', name="Paul", grad_year="2020")
 
 @app.route('/grace')
 def grace():
